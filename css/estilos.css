@@ -423,7 +423,11 @@ main {
      .fotos-grid {
         grid-template-columns: repeat(auto-fit, 250px);
         background-color: inherit;
+        grid-template-rows: repeat(8, 200px);
         padding: 0;
+     }
+     .item img {
+         height: 200px;
      }
  }
  .item {
@@ -432,7 +436,7 @@ main {
  }
 
  .item img {
-    height: 100%;
+    min-height: 100%;
     padding: 1px;
     border: 1px solid white;
     border-radius: 5px;
@@ -580,6 +584,7 @@ main {
 .campo input {
     flex: 1;
     font-size: 1rem;
+    color: #f6f6f6;
     padding: 10px;
     margin: 5px;
     border: .2px solid rgba(0, 0, 0, 0.37);
@@ -601,6 +606,7 @@ main {
     max-width: 65%;
     height: 90px;
     font-size: 1rem;
+     color: #f6f6f6;
     border: .2px solid rgba(0, 0, 0, 0.37);
     border-radius: 7px;
      background-color: rgba(0, 0, 0, 0.247);
