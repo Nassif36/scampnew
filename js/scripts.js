@@ -21,7 +21,7 @@ window.addEventListener('load', function(){
             errorForm.innerHTML = "Por favor, introducí tu nombre correctamente";
             return false;
         } else if (apellido.trim() == null || apellido.trim().length == 0) {
-            errorForm.innerHTML = "Por favor, ntroducí tu apellido correctamente";
+            errorForm.innerHTML = "Por favor, Introducí tu apellido correctamente";
              errorForm.style.display = 'block';
             return false;
         }
@@ -41,5 +41,10 @@ window.addEventListener('load', function(){
     });
 
 
+<<<<<<< HEAD
 
 });
+=======
+     formulario.event.preventDefault();
+});
+>>>>>>> 4463297a8fde5df186ea90aed2b0a6dd5b148dca

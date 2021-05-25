@@ -628,7 +628,7 @@ main {
 .btn {
    
     align-self: flex-end;
-    margin: 5px 0;
+    margin: 5px;
     justify-self: center;
     width: 115px;
     padding: 10px 2px;
@@ -663,6 +663,9 @@ main {
     }
     .w-100 label {
         padding: 10px 0;
+    }
+    .w-100 label {
+        padding: 5px 0;
     }
     .btn {
         margin: 10px 0;
