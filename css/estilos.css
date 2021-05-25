@@ -620,7 +620,7 @@ main {
 .btn {
    
     align-self: flex-end;
-    margin: 5px 0;
+    margin: 5px;
     justify-self: center;
     width: 115px;
     padding: 10px 2px;
@@ -651,6 +651,9 @@ main {
     }
     .campo textarea {
         max-width: 95%;
+    }
+    .w-100 label {
+        padding: 5px 0;
     }
     .btn {
         margin: 10px 0;
