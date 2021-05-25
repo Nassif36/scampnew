@@ -41,10 +41,6 @@ window.addEventListener('load', function(){
     });
 
 
-<<<<<<< HEAD
-
 });
-=======
      formulario.event.preventDefault();
 });
->>>>>>> 4463297a8fde5df186ea90aed2b0a6dd5b148dca
