@@ -168,7 +168,7 @@ img {
     font-weight: 300;
     margin: 1rem 0;
     background-color: rgb(1, 61, 82);
-    padding: 1rem 0;
+    padding: .8rem 0;
     letter-spacing: 5px;
     transition: .3s ease;
 }
@@ -337,6 +337,14 @@ main {
     display: block;
     border-top: 12px groove var(--color1);
     border-bottom: 1px solid black;
+}
+@media (max-width: 950px) {
+  .principal-img::after {
+
+      background-image: url(../img/mat1.jpg);
+
+
+  }
 }
 /* .principal-img img {
     border: 5px solid #067CA5;
@@ -641,7 +649,7 @@ main {
     }
     .campo {
         justify-content: center;
-        padding: 0 5px;
+        padding:5px;
         text-align: center;
     }
     .campo input {
@@ -651,6 +659,10 @@ main {
     }
     .campo textarea {
         max-width: 95%;
+        margin: 0;
+    }
+    .w-100 label {
+        padding: 10px 0;
     }
     .btn {
         margin: 10px 0;

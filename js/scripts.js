@@ -41,5 +41,5 @@ window.addEventListener('load', function(){
     });
 
 
-     formulario.event.preventDefault();
+
 });
