@@ -608,6 +608,7 @@ main {
     height: 90px;
     font-size: 1rem;
      color: #f6f6f6;
+     margin: 0 5px;
     border: .2px solid rgba(0, 0, 0, 0.37);
     border-radius: 7px;
      background-color: rgba(0, 0, 0, 0.247);
@@ -618,14 +619,13 @@ main {
 .btn {
    
     align-self: flex-end;
-    margin: 5px 0;
+    margin: 5px;
     justify-self: center;
     width: 115px;
     padding: 10px 2px;
     border: 1px solid black;
     color: white;
     background: linear-gradient(to bottom, #7c1838, #00000060);
-  
 }
 
 .btn:hover {
@@ -656,3 +656,17 @@ main {
         align-self: center;
     }
 }
+.form-error {
+    display: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    border-color: rgba(12, 12, 11, 0.938);
+    background-color: rgba(255, 255, 0, 0.103);
+}
+
